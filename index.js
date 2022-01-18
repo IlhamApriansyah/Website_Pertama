@@ -5,7 +5,7 @@
             showConfirmButton: false,
             width: 600,
             padding: '3em',
-            timer: 3000,
+            timer: 10000,
             color: '#ffffff',
             background: 'rgba(0,0,123,0.5)',
             backdrop: `
