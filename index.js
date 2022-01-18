@@ -18,32 +18,19 @@
     }
 
     function AlertAnime() {
-        const swalWithBootstrapButtons = Swal.mixin({
-            customClass: {
-              confirmButton: 'btn btn-success',
-              cancelButton: 'btn btn-danger'
-            },
-            buttonsStyling: false
-          })
-          
-          swalWithBootstrapButtons.fire({
-            title: 'Lu anime yh bang?',
-            icon: 'question',
-            showCancelButton: true,
-            confirmButtonText: 'adalah gwej',
-            cancelButtonText: 'Wakaranai',
-            reverseButtons: true
-          }).then((result) => {
-            if (result.isConfirmed) {
-              swalWithBootstrapButtons.fire(
-                window.location.href= 'Anime/anime.html',
-              )
-            } else  {
-              swalWithBootstrapButtons.fire({
-                title: 'Tch, kukira anime',
-                showConfirmButton: false,
-                timer: 2000
-              }) 
-            }
-          })
+      Swal.fire({
+        title: 'Kamu anime yh bang?',
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Haikk',
+        cancelButtonText: 'Wakaranai'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire(
+            window.location.href="Anime/anime.html",
+          )
         }
+      })
+    }
