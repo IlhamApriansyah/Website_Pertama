@@ -1,0 +1,132 @@
+html
+  {
+    scroll-behavior: smooth;
+  }
+
+.index
+  {
+    background-image: url("index.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+@media only screen and (max-width:768px)
+{
+  /*tampilan handphone*/
+    
+    .header-index
+    {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-shadow: 0px 10px  5px black;
+      color: white;
+      font-family: 'Gill Sans';
+      font-size: 72px;
+    }
+
+    .btn-input
+    {
+    	background-color: blueviolet;
+      color:white;
+      margin-left:10px;
+    }
+
+    .card
+    {
+      width:16rem;
+      padding:10px;
+      margin-top:10px;
+      margin-left: 50px;
+      margin-bottom:20px;
+      border:2px solid blueviolet;
+      border-radius:20px;
+    }
+
+    .card-text
+    {
+      text-align:center;
+    }
+
+    .card-img-top
+    {
+      width:230px;
+      height:200px;
+      border:2px solid blueviolet;
+      border-radius: 20px;
+    }
+
+    .card-title
+    {
+      text-align:center;
+    }
+
+    .btn-card
+    {
+      background-color: blueviolet;
+      color:white;
+      margin-left:50px;
+      border:2px solid black;
+      border-radius:20px;
+    }
+}
+
+@media only screen and (min-width: 769px)
+{
+  /*tampilan desktop*/
+
+    .header-index
+    {
+      text-align: center;
+      margin-top: 20px;
+      text-shadow: 0px 10px  5px black;
+      color: white;
+      font-family: 'Gill Sans';
+      font-size: 72px;
+    }
+
+    .btn-input
+    {
+  	  background-color: blueviolet;
+      color:white;
+      margin-left:30px;
+    }
+
+    .card
+    {
+      width:22rem;
+      padding:10px;
+      margin-left:10px;
+      margin-top:10px;
+      margin-bottom:20px;
+      border:2px solid blueviolet;
+      border-radius:20px;
+    }
+
+    .card-img-top
+    {
+      width:330px;
+      height:300px;
+      border:2px solid blueviolet;
+      border-radius: 20px;
+    }
+
+    .card-text
+    {
+      text-align:center;
+    }
+
+    .card-title
+    {
+      text-align:center;
+    }
+
+    .btn-card
+    {
+      background-color: blueviolet;
+      color:white;
+      margin-left:90px;
+      border:2px solid black;
+      border-radius:20px;
+    }
+}

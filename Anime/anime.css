@@ -1,0 +1,76 @@
+html
+{
+  scroll-behavior: smooth;
+}
+
+.anime
+{
+  background-color:blueviolet;
+}
+
+@media only screen and (max-width:768px)
+{
+    /*tampilan handphone*/
+    .anime-header
+    {
+      text-align:center;
+      font-size: 36px;
+      padding: 10px;
+      font-family: 'monospace';
+      text-shadow: 0px 10px 5px black;
+      color:white;
+    }
+
+    .anime-card
+    {
+      width: 30rem;
+      margin-left: 20px;
+    }
+
+    .anime-display
+    {
+      margin-left: 10px;
+      margin-bottom: 20px;
+      padding:20px;
+      color:white;
+      background-color: black;
+      border-radius:10px;
+    }
+
+    .btn-anime
+    {
+      background-color: white;
+      color:black;
+      margin-left:150px;
+    }
+
+}
+
+@media only screen and (min-width: 769px)
+{
+  /*tampilan desktop*/
+  .anime-header
+    {
+      text-align:center;
+      font-size: 36px;
+      font-family: 'monospace';
+      text-shadow: 0px 10px 5px black;
+      color:white;
+    }
+
+    .anime-display
+    {
+      padding:20px;
+      color:white;
+      background-color: black;
+      border-radius:10px;
+    }
+
+    .btn-anime
+    {
+      background-color: white;
+      color:black;
+      margin-left:120px;
+
+    }
+}
