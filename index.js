@@ -1,5 +1,9 @@
+  function EasterEgg(){
+    window.location.href="https://github.com/IlhamApriansyah"
+  }
 
-    function AlertHome(){
+
+  function AlertHome(){
         Swal.fire({
             title: 'Selamat datang di website serbaguna',
             showConfirmButton: false,
@@ -15,9 +19,9 @@
               no-repeat
             `
           })
-    }
+  }
 
-    function AlertAnime() {
+  function AlertAnime() {
       Swal.fire({
         title: 'Kamu anime yh bang?',
         icon: 'question',
@@ -33,4 +37,4 @@
           )
         }
       })
-    }
+  }
