@@ -2,6 +2,9 @@
     window.location.href="https://github.com/IlhamApriansyah"
   }
 
+  function Anime(){
+    
+  }
 
   function AlertHome(){
         Swal.fire({
@@ -28,12 +31,15 @@
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Haikk',
-        cancelButtonText: 'Wakaranai'
+        confirmButtonText: 'Yoi',
+        cancelButtonText: 'Ndak tau'
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire(
             window.location.href="Anime/anime.html",
+            {
+             timer: 0,
+            }
           )
         }
       })
